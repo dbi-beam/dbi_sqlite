@@ -1,0 +1,15 @@
+{application, dbi_sqlite, [
+    {description, "DataBase Interface for Erlang using SQLite"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {maintainers, ["Manuel Rubio"]},
+    {licenses, ["LGPL 2.1"]},
+    {links, [
+        {"Github", "https://github.com/dbi-beam/dbi_sqlite"}
+    ]}
+]}.
