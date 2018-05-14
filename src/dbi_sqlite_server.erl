@@ -18,7 +18,7 @@
     terminate/2
 ]).
 
--include("dbi.hrl").
+-include_lib("dbi/include/dbi.hrl").
 
 -record(state, {
     databases = dict:new() :: ?DICT_TYPE()
